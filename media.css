@@ -1,0 +1,105 @@
+@media screen and (max-width: 1200px)
+{
+    #desktop-nav
+    {
+        display: none;
+    }
+    #hnav
+    {
+        display:flex;
+    }
+    #experience,
+  .exp_det_con {
+    margin-top: 2rem;
+  }
+  #profile,
+  .sec_con {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .sec_con {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .secpiccon {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about_con {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about_con {
+      flex-wrap: wrap;
+    }
+    #contacts,
+    #projects {
+      height: fit-content;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .exp_sub_title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .sec_pic_con {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .sec_text_p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .text-container {
+      text-align: justify;
+    }
+  }
